@@ -2,7 +2,7 @@
 
 ## Summary
 
-I began pursuing the OSCP certification in mid 2025. To bridge the gap between bug bounty hunting and OSCP-level penetration testing, i’ll be practicing on TryHackMe and HackTheBox. This repository documents my journey, showcasing both my practical exercises and the notes I’ve developed along the way. 
+I began practising for the OSCP certification in mid 2025. To bridge the gap between bug bounty hunting and OSCP-level penetration testing, i’ll be practicing on TryHackMe and HackTheBox. This repository documents my journey, showcasing both my practical exercises and the notes I’ve developed along the way. 
 
 *Kind of like my own little portfolio, sharing the knowledge i learn to help others!*
 
