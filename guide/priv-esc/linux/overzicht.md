@@ -1,31 +1,16 @@
 ## Linux Privelege Escalation
 
-### starters - Recon
+### Algemeen
 
-**Informatie over gebruikersrechten**
+#### Checklist
 
-*Zie /sudo/overzicht.md voor proof of concept*
-```
-sudo -l
-```
-**Informatie over files & binarys die met root privileges uitgevoerd kunnen worden door ons**
+Te vinden in /general kun je  mijn checklist van alle command's voor het checken van:
 
-```
-find / -perm -u=s -type f 2>/dev/null
-```
-
-- Het resultaat wat hier uit komt, kunnen we checken met `ls -la /dir/to/<binary>`
-    - Komt hier iets uit met volgende structuur: `-rwsr-sr-x`
-        - Ja? Dan kunnen we er iets mee. Meer onderzoek doen.
-
-**Informatie over runnende services die aanstaan**
-
-```
-service --status-all | grep '+'
-```
-
-
-### Intermediate - Recon
-
-
-### Geavanceerde - Recon
+- NFS Shares
+- Crontabs
+- Kernel exploits
+- SUID Binary's
+- Sudo Misconfigurations
+- Writable $PATH, Folders & Binarys/Files
+- Filtered Commands for User Enumeration
+- Capabilities

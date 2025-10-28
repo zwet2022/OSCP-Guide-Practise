@@ -7,5 +7,5 @@
 **Switch naar user met**
 
 ```
-sudo -u toby /bin/bash
+sudo -u <user> /bin/bash
 ```
