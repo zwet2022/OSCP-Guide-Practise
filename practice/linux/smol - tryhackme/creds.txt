@@ -1,0 +1,12 @@
+wp-config:
+
+wpuser:kbLSF2Vop#lw3rjDZ629*Z%G
+
+db:
+
+admin:$P$BH.CF15fzRjwp-admi4li7nR19CHzZhPmhKdX
+think:$P$BOb8/koi4nrmSPW85f5KzM5M/k2n0d/
+gege:$P$B1UHruCd/9bGD.TtVZULlxFrTsb3PX1
+xavi:$P$BB4zz2JEnM2H3WE2RHs3q18.1pvcql1
+
+diego:sandiegocalifornia 
